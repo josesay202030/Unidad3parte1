@@ -1,0 +1,20 @@
+Inicioareayperimetro
+
+	var base
+	var altura
+	var area
+	var perimetro
+	
+		escribir "Ingrese la base"
+		leer base
+		
+		escribir "Ingrese la altura"
+		leer altura
+		
+		area= base*altura
+		
+		perimetro= 2*(base*altura)
+		
+		escribir "El perimetro es (perimetro) y el area es (area)"
+		
+fin
