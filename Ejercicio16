@@ -1,0 +1,31 @@
+Inicionumeromayor
+
+	var n1
+	var n2
+	var n3
+	
+		escribir "ingrese un número"
+		leer n1
+		
+		escribir "ingrese un número"
+		leer n2
+		
+		escribir "ingrese un número"
+		leer n3
+		
+		si (n1>n2) entonces 
+			si (n1<n3) entonces
+			escribir "(n1)es el número mayor"
+			sino si entonces
+			escribrir "(n3)es el número mayor"
+			fin si
+		sino si entones
+			si (n2>n3) entonces
+			escribir "El número mayor es (n2)"
+			sino si entonces
+			escribir "El número mayor es (n3)"
+			fin si
+		fin si
+		
+		
+fin
