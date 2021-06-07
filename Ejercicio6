@@ -1,0 +1,18 @@
+Inicioaumento30%
+
+	var numeroaleatorio
+	var 30%
+	var aumento30
+	
+	numeroaleatorio= funcaleatorio(min=0,max=200)
+	
+	escribir "El numero aleatorio es (numeroaleatorio)"
+	
+	30%= numeroaleatorio*0.30
+	
+	aumento30= numeroaleatorio+30%
+	
+	escribir "El numero aumentado en 30% es (aumento30%)"
+	
+	
+fin
