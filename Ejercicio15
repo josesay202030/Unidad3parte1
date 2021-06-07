@@ -1,0 +1,22 @@
+Inicioclasificacionnumero
+
+	var numero
+	
+	
+		Escribir "ingrese el numero"
+		leer numero
+		
+		si (numero<0) entonces
+			escribir "El número es negativo"
+				sino entonces	
+					si (numero>0) entonces
+					escribir "El número es positivo"
+						sino entonces
+							si(número=0) entonces
+							escribir "El número es Nulo"
+							fin si
+					fin si
+						
+		fin si
+		
+fin
