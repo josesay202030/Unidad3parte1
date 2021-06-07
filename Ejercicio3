@@ -1,0 +1,16 @@
+iniciodobleytriple
+
+	var numero
+	var doble
+	var triple
+	
+		escribir "ingrese numero"
+		leer numero
+	
+		doble= numero*2
+	
+		triple= numero*3
+	
+		escribir "El doble de (numero) es (doble) y el triple es(triple)"
+		
+fin
