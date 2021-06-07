@@ -1,0 +1,12 @@
+Inicionumerosiguiente
+
+	var numero
+	var numerosiguiente
+	
+		escribir "ingrese numero"
+		leer numero
+		
+		numerosiguiente= numero+1
+		escribir "El numero siguiente es (numerosiguiente)"
+		
+fin
