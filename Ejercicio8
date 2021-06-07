@@ -1,0 +1,24 @@
+Iniciopromedio
+
+	var n1
+	var n2
+	var n3
+	var suma
+	var promedio 
+	
+		escribir "ingrese primer numero"
+		leer n1
+		
+		escribir ""ingrese segundo numero"
+		leer n2
+		
+		escribir "ingrese tercer numero"
+		leer n3 
+		
+		suma= n1+n2+n3
+		
+		promedio=suma/3
+		
+		escribir "El promedio es (promedio)"
+		
+fin
