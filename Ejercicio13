@@ -1,0 +1,25 @@
+Iniciovolumencilindro
+
+	var radio
+	var altura 
+	var volumen
+	
+		escribir "Ingrese el radio"
+		leer radio
+		
+		escribri "Ingrese la altura"
+		leer altura
+		
+		
+		si (altura>0)entonces
+			si (radio>0)entonces 
+			volumen= 3.1416*radio*radio*altura
+			
+			sino Escribir "No se puede realizar el cálculo"
+			
+			finsi
+		sino Escribir "No se puede realizar el cálculo"
+		
+		finsi
+		
+fin 
