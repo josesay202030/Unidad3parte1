@@ -1,0 +1,37 @@
+Iniciotriangulos
+
+	var l1
+	var l2
+	var l3
+	
+	escribir "ingrese el primer lado"
+	leer l1
+	
+	escribir "Ingrese el segundo lado"
+	leer l2
+	
+	escribri "Ingrese el tercer lado"
+	leer l3
+	
+	si (l1=l2=l3) entonces
+		escribir "El triangulo es equilátero"
+		
+		sino si entonces
+			si (l1=l2) entonces
+			escribir "El triangulo es Isósceles"
+			sino si entones
+				si (l1=l3)
+				escribir "El triangulo es Isósceles"
+				sino si entonces
+					si (l2=l3) entonces
+					escribir "El triangulo es Isósceles"
+					sino si entonces
+					Escribir "El triangulo es Escaleno"
+					fin si
+				fin si
+			fin si
+		
+	fin si
+	
+fin 			
+
