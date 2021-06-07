@@ -1,0 +1,34 @@
+Iniciocapicua
+
+	var numero
+	
+	escribir "Ingrese número no mayor de 5 digitos"
+	leer numero
+	
+	si (numero<100000) entonces
+		var n1
+		var n2 
+		var n3
+		var n4
+		var n5
+		
+		
+		n1= substr(numero,0,1)
+		n2= substr(numero,1,1)
+		n3= substr(numero,2,1)
+		n4= substr(numero,3,1)
+		n5= substr(numero,4,1)
+		
+		si (n2==n4) entonces
+			si (n1==n5) entonces
+			escribir "Es capicúa"
+			sino si entonces
+			escribir "No es Capicúa"
+			fin si
+		sino si entonces 
+		escribri "No es Capicúa"
+		fin si
+	sino si entonces
+	escribir "El número tiene más de 5 dígitos"
+	fin si
+fin
