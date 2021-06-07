@@ -1,0 +1,28 @@
+Inicionúmero4idigitos
+
+	var numero
+	var suma
+	
+		escribir "Ingrese número de 4 dígitos"
+		leer numero
+		
+		 	si (número>10000) entonces
+		 		var n1
+		 		var n2 
+		 		var n3
+		 		var n4
+		 	 		n1= substr(numero,0.1)
+		 	 		n2= substr(numero,1.1)
+		 	 		n3= substr(numero,2,1)
+		 	 		n4= substr(numero,3,1)
+			
+				suma=n1+n2+n3+n4
+				Escribir "Los número son (n1),(n2),(n3),(n4) y la suma es (suma)"
+				
+			sino si entonces
+			escribir "El número tiene más de 4 número intente nuevamente"
+			fin si
+			
+fin		
+			
+			 	 		
