@@ -1,0 +1,15 @@
+Iniciocambiodevalores
+
+	var A
+	var B
+	
+		escribir "ingrese valor A"
+		leer B
+	
+		escribir "ingrese valor B"
+		leer A
+		
+		
+		Escribir "Los valores intercambiados son A=(B) y B=(A)"
+		
+fin
