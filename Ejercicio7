@@ -1,0 +1,17 @@
+iniciodisminuido15
+
+	var numeroaleatorio
+	var 15%
+	var disminucion
+	
+	numeroaleatorio= funcaleatorio (min=10, max=50)
+	
+	escribir "El número aleatorio es (numeroaleatorio)"
+	
+	15%= numeroaleatorio*0.15
+	
+	disminucion=numeroaleatorio-15%
+	
+	escribir "El numero disminuido en 15% es (disminucion)"
+	
+fin
