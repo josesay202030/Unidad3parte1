@@ -1,0 +1,27 @@
+Inicio Divisivilidada
+
+	var divisor
+	var dividendo
+	var cociente 
+	
+	
+		Escribir "ingrese el divisor"
+		leer divisor
+		
+		Escribir "ingrsese el dividendo"
+		leer dividendo
+		
+		si (dividendo>divisor) entonces
+		
+			cociente=dividendo/divisor
+			
+				si mod2(residuo)=0 entonces
+				escribir "es divisible"
+				
+				sino escribir "no es divisible"
+				
+				fin si
+		sino escribir "no es divisible"
+		fin si
+		
+fin
