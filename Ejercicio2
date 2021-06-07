@@ -1,0 +1,16 @@
+
+Iniciopaisycapital
+
+	var capital
+	var pais
+	
+	escribir "ingrese capital"
+	leer capital
+	
+	escribir "ingrese pais"
+	leer pais
+	
+	
+	escribir "(capital) es la capital de (pais)"
+	
+fin
