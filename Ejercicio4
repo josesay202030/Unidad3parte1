@@ -1,0 +1,16 @@
+Iniciocuadradoycubo
+
+	var numero
+	var cuadrado
+	var cubo
+	
+	
+		escribir "ingrese numero"
+		leer numero
+		
+		cuadrado= numero*numero
+		cubo= numero*numero*numero
+		
+		escribir "el cubo es(cubo) y el cuadrado es (cuadrado)"
+		
+fin
