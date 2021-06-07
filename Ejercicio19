@@ -1,0 +1,23 @@
+Iniciocartel
+
+	var numero
+	var multiplo
+		 
+		numero= funcaleatorio(min=0, max=1000)
+		
+		escribir "El número aleatorio es (numero)"
+		
+		multiplo=numero/5
+		
+		si (mod2(residuo)multiplo==0) entonces
+		
+			si (mod (cociente)<25) entonces
+			Escribir "Correcto"
+			sino si entonces 
+			Escribir "Es mayor que 25"
+			fin si
+		sino si entonces
+		Escribir "No es Múltiplo"
+		fin si
+		
+fin
