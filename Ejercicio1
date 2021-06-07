@@ -1,0 +1,17 @@
+
+	var resultado
+	var primernumero
+	var segundonumero
+	
+		escribrir "ingrese primer numero"
+		leer primer numero 
+		
+		escribir "ingrese segundo numero" 
+		leer segundo número
+		
+		resultado=primernumero+segundonumero
+		
+		escribrir "resultado"
+		
+		
+	fin
