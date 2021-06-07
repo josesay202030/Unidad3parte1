@@ -1,0 +1,24 @@
+Inicioconversor
+
+	var centimetros
+	var yardas
+	var metros 
+	var pies
+	var pulgadas 
+	
+		escribir "ingrese cantidad en centimetros a convertir"
+		leer centimetros
+		
+		yardas= centimetro/91.44
+		
+		metros= centimetros/100
+		
+		pies= centimetros/30.48
+		
+		pulgadas= centimetros/2.54
+		
+		escribir "(centimetros)centimetros equivale a (yardas)yardas, 
+		(metros)metros, (pies)pies y (pulgadas)pulgadas"
+		
+		
+fin
