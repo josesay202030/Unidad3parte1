@@ -1,0 +1,13 @@
+Inicioconversortemperatura
+
+	var grados
+	var fahrenheit
+	
+		escribir "Ingrese la temperatura en grados celcius"
+		leer grados 
+		
+		fahrenheit= (celcius*9/5)+32
+		
+		escribir "La temperatura en grados Fahrenheit será (fahrenheit)"
+		
+fin
